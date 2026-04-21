@@ -6,12 +6,11 @@ import java.util.ArrayList;
  * mean "higher" priority.
  *
  * @param <E> the type of elements in the queue
- * @author
+ * @author Eli
  */
 public class PriorityQueue<E extends Comparable<E>> {
 
     private ArrayList<E> myHeap; //array representation of the heap
-
     /**
      * Creates an empty Priority Queue
      */
@@ -25,6 +24,17 @@ public class PriorityQueue<E extends Comparable<E>> {
      * @param element the element to be added
      */
     public void add(E element) {
+        if (myHeap.isEmpty()) {
+            myHeap.add(element);
+        }
+        // the heap is empty
+
+        //add at end
+
+        //siftUp() which would swap up through the heap
+
+        //2i +1, 2i+ 2 reversed so floor of (i-1)/2
+
 
     }
 
@@ -108,9 +118,12 @@ public class PriorityQueue<E extends Comparable<E>> {
      * @return the String representation of the heap
      */
     public String toString() {
-        return "toString";
+        String result = "";
+        for (E e : myHeap) {
+            result += e + " ";
+        }
+        return result;
     }
-
 
     /**
      * Main method - contains console program used
