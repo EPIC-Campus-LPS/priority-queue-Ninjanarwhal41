@@ -19,21 +19,30 @@ public class PriorityQueue<E extends Comparable<E>> {
         size = 0;
     }
 
+    private int parent(int index){
+        return (index-1)/2;
+    }
+
+    private int leftChild(int index){
+        return (index*2)+1;
+    }
+
+    private int rightChild(int index){
+        return (index*2)+2;
+    }
+
     /**
      * Adds the element to the priority queue
      *
      * @param element the element to be added
      */
     public void add(E element) {
-        int i = size;
+        int currentIndex = size;
         size++;
-        if (myHeap.isEmpty()) {
-            myHeap.add(element);
-        }
-        // the heap is empty
-        else{
-            myHeap.add(element);
-            deheapify(i);
+        myHeap.add(element);
+        while (currentIndex > 0 && (myHeap.get(currentIndex)).compareTo(myHeap.get(parent(currentIndex))) < 0) {
+            swap(currentIndex, parent(currentIndex));
+            currentIndex = parent(currentIndex);
         }
     }
 
@@ -51,7 +60,7 @@ public class PriorityQueue<E extends Comparable<E>> {
     }
 
     /**
-     * Returns whether or not the element is in the heap
+     * Returns whether the element is in the heap
      *
      * @param element the element to be searched for
      * @return true if the element is in the queue, false otherwise
@@ -98,14 +107,14 @@ public class PriorityQueue<E extends Comparable<E>> {
     private void heapify(int pos) {
         //remember, to get the index of the left and right child of a node, use 2i+1 and 2i+2.
         while(pos < size){
-            if(((myHeap.get(pos).compareTo(myHeap.get(2 * pos + 1)) > 0))){
-                swap(pos, 2 * pos + 1);
-                pos = 2 * pos + 1;
+            if(((myHeap.get(pos).compareTo(myHeap.get(leftChild(pos))) > 0)) && leftChild(pos) < size){
+                swap(pos, leftChild(pos));
+                pos = leftChild(pos);
             }
             //if the parent is greater than the left child, swap them.
-            else if((myHeap.get(pos).compareTo(myHeap.get(2 * pos + 2))) > 0){
-                swap(pos, 2 * pos + 1);
-                pos = 2 * pos + 1;
+            else if((myHeap.get(pos).compareTo(myHeap.get(rightChild(pos)))) > 0 && rightChild(pos) < size){
+                swap(pos, rightChild(pos));
+                pos = rightChild(pos);
             }
             //if the parent is greater than the right child, swap them.
             //continues swapping down a path until there are no more children.
@@ -119,24 +128,15 @@ public class PriorityQueue<E extends Comparable<E>> {
      * @param pos the starting position for deheapify
      */
     private void deheapify(int pos){
-        //2i +1, 2i+ 2 reversed so floor of (i-1)/2 or floor of (i-2)/2
-        double i = pos;
-        while(pos > 0){
-            if(((myHeap.get(pos).compareTo(myHeap.get((int) Math.floor((i - 1)/ 2))) > 0))){
-                swap(pos, 2 * pos + 1);
-                pos = (int) Math.floor((i - 1)/ 2);
-                i = pos;
+        //2i +1, 2i+ 2 reversed so (i-1)/2
+        do {
+            if (((myHeap.get(pos).compareTo(myHeap.get(parent(pos))) < 0))) {
+                swap(pos, parent(pos));
             }
-            //if the parent is greater than the left child, swap them.
-            else if((myHeap.get(pos).compareTo(myHeap.get((int) Math.floor((i-2)/2))) > 0)){
-                swap(pos, 2 * pos + 1);
-                pos = (int) Math.floor((i-2)/2);
-                i = pos;
-            }
-            //if the parent is greater than the child, swap them.
+            pos = parent(pos);
+            //if the parent is greater than the left or right child, swap them.
             //continues swapping up a path until the root is reached.
-        }
-
+        } while (pos != 0);
     }
 
     /**
@@ -148,9 +148,14 @@ public class PriorityQueue<E extends Comparable<E>> {
      * @return true if an element was removed from the queue, false otherwise
      */
     public boolean remove(E element) {
+        if (size == 0){
+            return false;
+        }
+
         for(int i = 0; i < myHeap.size(); i++){
             if (myHeap.get(i).compareTo(element) == 0){
                 myHeap.remove(myHeap.get(i));
+                deheapify(myHeap.size()-1);
                 size--;
                 return true;
             }
@@ -200,6 +205,10 @@ public class PriorityQueue<E extends Comparable<E>> {
         pq.add(56);
         pq.add(67);
         System.out.println(pq);
+        pq.remove(67);
+        System.out.println(pq);
+        pq.remove(18);
+        System.out.println(pq);
         pq2.add(67);
         pq2.add(56);
         pq2.add(54);
@@ -208,6 +217,11 @@ public class PriorityQueue<E extends Comparable<E>> {
         pq2.add(19);
         pq2.add(18);
         System.out.println(pq2);
+        PriorityQueue<Integer> pq3 = new PriorityQueue<>();
+        pq3.add(65);
+        pq3.add(32);
+        pq3.add(23);
+        System.out.println(pq.toString());
     }
 
 }
