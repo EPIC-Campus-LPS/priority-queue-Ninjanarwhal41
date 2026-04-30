@@ -107,16 +107,23 @@ public class PriorityQueue<E extends Comparable<E>> {
     private void heapify(int pos) {
         //remember, to get the index of the left and right child of a node, use 2i+1 and 2i+2.
         while(pos < size){
-            if(((myHeap.get(pos).compareTo(myHeap.get(leftChild(pos))) > 0)) && leftChild(pos) < size){
-                swap(pos, leftChild(pos));
-                pos = leftChild(pos);
+            int left = leftChild(pos);
+            int right = rightChild(pos);
+            int smallest = pos;
+
+            if(left < size && ((myHeap.get(pos).compareTo(myHeap.get(left)) > 0))){
+                smallest = left;
             }
             //if the parent is greater than the left child, swap them.
-            else if((myHeap.get(pos).compareTo(myHeap.get(rightChild(pos)))) > 0 && rightChild(pos) < size){
-                swap(pos, rightChild(pos));
-                pos = rightChild(pos);
+            if( right < size && (myHeap.get(pos).compareTo(myHeap.get(right))) > 0){
+                smallest = right;
             }
             //if the parent is greater than the right child, swap them.
+            if(smallest == pos){
+                break;
+            }
+            swap(pos, smallest);
+            pos = smallest;
             //continues swapping down a path until there are no more children.
         }
 
@@ -129,14 +136,18 @@ public class PriorityQueue<E extends Comparable<E>> {
      */
     private void deheapify(int pos){
         //2i +1, 2i+ 2 reversed so (i-1)/2
-        do {
-            if (((myHeap.get(pos).compareTo(myHeap.get(parent(pos))) < 0))) {
-                swap(pos, parent(pos));
+        while (pos != 0) {
+            int par = parent(pos);
+            if (((myHeap.get(pos).compareTo(myHeap.get(par)) < 0))) {
+                swap(pos, par);
+                pos = par;
             }
-            pos = parent(pos);
+            else{
+                break;
+            }
             //if the parent is greater than the left or right child, swap them.
             //continues swapping up a path until the root is reached.
-        } while (pos != 0);
+        }
     }
 
     /**
@@ -152,11 +163,15 @@ public class PriorityQueue<E extends Comparable<E>> {
             return false;
         }
 
-        for(int i = 0; i < myHeap.size(); i++){
+        for(int i = 0; i < size; i++){
             if (myHeap.get(i).compareTo(element) == 0){
-                myHeap.remove(myHeap.get(i));
-                deheapify(myHeap.size()-1);
                 size--;
+                myHeap.set(i, myHeap.get(size));
+                myHeap.remove(size);
+                if(i < size){
+                    heapify(i);
+                    deheapify(i);
+                }
                 return true;
             }
         }

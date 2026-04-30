@@ -99,7 +99,7 @@ class PriorityQueueTest {
         pq2.add(18);
         assertEquals("18 32 19 67 54 56 29 ", pq2.toString());
         pq2.remove(18);
-        assertEquals("19 32 29 67 54 56", pq2.toString());
+        assertEquals("19 32 29 67 54 56 ", pq2.toString());
 
 
     }

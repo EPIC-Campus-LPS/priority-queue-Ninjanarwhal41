@@ -5,10 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="fe28e44d-3afb-47c5-9791-b5325ffda597" name="Changes" comment="worked on several methods.">
-      <change afterPath="$PROJECT_DIR$/src/PriorityQueueTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PriorityQueue.iml" beforeDir="false" afterPath="$PROJECT_DIR$/PriorityQueue.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/PriorityQueue.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/PriorityQueue.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/PriorityQueueTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/PriorityQueueTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -31,12 +30,16 @@
     &quot;assignee&quot;: &quot;Ninjanarwhal41&quot;
   }
 }</component>
-  <component name="GithubPullRequestsUISettings">{
-  &quot;selectedUrlAndAccountId&quot;: {
-    &quot;url&quot;: &quot;https://github.com/EPIC-Campus-LPS/priority-queue-Ninjanarwhal41.git&quot;,
-    &quot;accountId&quot;: &quot;52d6782b-7a4b-4ccf-92a8-ac7ae4c181c7&quot;
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/EPIC-Campus-LPS/priority-queue-Ninjanarwhal41.git",
+    "accountId": "b9a445cc-fbfb-4f4b-bdc7-93aa36d5e442"
   }
-}</component>
+}]]></component>
+  <component name="McpProjectServerCommands">
+    <commands />
+    <urls />
+  </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 5
 }</component>
@@ -49,11 +52,12 @@
   "keyToString": {
     "Application.PriorityQueue.executor": "Run",
     "Downloaded.Files.Path.Enabled": "false",
-    "JUnit.PriorityQueueTest.executor": "Run",
+    "JUnit.PriorityQueueTest.executor": "Coverage",
     "JUnit.PriorityQueueTest.remove.executor": "Debug",
     "Repository.Attach.Annotations": "false",
     "Repository.Attach.JavaDocs": "false",
     "Repository.Attach.Sources": "false",
+    "RunOnceActivity.MCP Project settings loaded": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.git.unshallow": "true",
     "com.intellij.ml.llm.matterhorn.ej.ui.settings.DefaultModelSelectionForGA.v1": "true",
@@ -80,7 +84,7 @@
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="bundled-jdk-30f59d01ecdd-2fc7cc6b9a17-intellij.indexing.shared.core-IU-253.31033.145" />
+        <option value="bundled-jdk-30f59d01ecdd-2fc7cc6b9a17-intellij.indexing.shared.core-IU-253.30387.90" />
       </set>
     </attachedChunks>
   </component>
@@ -117,18 +121,7 @@
     <MESSAGE value="worked on several methods." />
     <option name="LAST_COMMIT_MESSAGE" value="worked on several methods." />
   </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/PriorityQueueTest.java</url>
-          <line>101</line>
-          <option name="timeStamp" value="1" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
-  </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/priority_queue_Ninjanarwhal41$PriorityQueueTest.ic" NAME="PriorityQueueTest Coverage Results" MODIFIED="1777320798170" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="true" />
+    <SUITE FILE_PATH="coverage/priority_queue_Ninjanarwhal41$PriorityQueueTest.ic" NAME="PriorityQueueTest Coverage Results" MODIFIED="1777444692808" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="true" />
   </component>
 </project>
