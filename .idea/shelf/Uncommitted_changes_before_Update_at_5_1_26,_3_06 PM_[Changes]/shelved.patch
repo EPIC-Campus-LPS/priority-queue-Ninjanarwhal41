@@ -1,0 +1,96 @@
+Index: .idea/workspace.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<project version=\"4\">\n  <component name=\"AutoImportSettings\">\n    <option name=\"autoReloadType\" value=\"SELECTIVE\" />\n  </component>\n  <component name=\"ChangeListManager\">\n    <list default=\"true\" id=\"fe28e44d-3afb-47c5-9791-b5325ffda597\" name=\"Changes\" comment=\"worked on several methods.\">\n      <change afterPath=\"$PROJECT_DIR$/src/PriorityQueueTest.java\" afterDir=\"false\" />\n      <change beforePath=\"$PROJECT_DIR$/.idea/workspace.xml\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/.idea/workspace.xml\" afterDir=\"false\" />\n      <change beforePath=\"$PROJECT_DIR$/PriorityQueue.iml\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/PriorityQueue.iml\" afterDir=\"false\" />\n      <change beforePath=\"$PROJECT_DIR$/src/PriorityQueue.java\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/src/PriorityQueue.java\" afterDir=\"false\" />\n    </list>\n    <option name=\"SHOW_DIALOG\" value=\"false\" />\n    <option name=\"HIGHLIGHT_CONFLICTS\" value=\"true\" />\n    <option name=\"HIGHLIGHT_NON_ACTIVE_CHANGELIST\" value=\"false\" />\n    <option name=\"LAST_RESOLUTION\" value=\"IGNORE\" />\n  </component>\n  <component name=\"FileTemplateManagerImpl\">\n    <option name=\"RECENT_TEMPLATES\">\n      <list>\n        <option value=\"JUnit5 Test Class\" />\n      </list>\n    </option>\n  </component>\n  <component name=\"Git.Settings\">\n    <option name=\"RECENT_GIT_ROOT_PATH\" value=\"$PROJECT_DIR$\" />\n  </component>\n  <component name=\"GitHubPullRequestSearchHistory\">{\n  &quot;lastFilter&quot;: {\n    &quot;state&quot;: &quot;OPEN&quot;,\n    &quot;assignee&quot;: &quot;Ninjanarwhal41&quot;\n  }\n}</component>\n  <component name=\"GithubPullRequestsUISettings\">{\n  &quot;selectedUrlAndAccountId&quot;: {\n    &quot;url&quot;: &quot;https://github.com/EPIC-Campus-LPS/priority-queue-Ninjanarwhal41.git&quot;,\n    &quot;accountId&quot;: &quot;52d6782b-7a4b-4ccf-92a8-ac7ae4c181c7&quot;\n  }\n}</component>\n  <component name=\"ProjectColorInfo\">{\n  &quot;associatedIndex&quot;: 5\n}</component>\n  <component name=\"ProjectId\" id=\"2Yx1waVWfeIRunN9FsuvG1lkWno\" />\n  <component name=\"ProjectViewState\">\n    <option name=\"hideEmptyMiddlePackages\" value=\"true\" />\n    <option name=\"showLibraryContents\" value=\"true\" />\n  </component>\n  <component name=\"PropertiesComponent\"><![CDATA[{\n  \"keyToString\": {\n    \"Application.PriorityQueue.executor\": \"Run\",\n    \"Downloaded.Files.Path.Enabled\": \"false\",\n    \"JUnit.PriorityQueueTest.executor\": \"Run\",\n    \"JUnit.PriorityQueueTest.remove.executor\": \"Debug\",\n    \"Repository.Attach.Annotations\": \"false\",\n    \"Repository.Attach.JavaDocs\": \"false\",\n    \"Repository.Attach.Sources\": \"false\",\n    \"RunOnceActivity.ShowReadmeOnStart\": \"true\",\n    \"RunOnceActivity.git.unshallow\": \"true\",\n    \"com.intellij.ml.llm.matterhorn.ej.ui.settings.DefaultModelSelectionForGA.v1\": \"true\",\n    \"com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary\": \"JUnit5\",\n    \"com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5\": \"\",\n    \"create.test.in.the.same.root\": \"true\",\n    \"git-widget-placeholder\": \"master\",\n    \"junie.onboarding.icon.badge.shown\": \"true\",\n    \"kotlin-language-version-configured\": \"true\",\n    \"to.speed.mode.migration.done\": \"true\"\n  }\n}]]></component>\n  <component name=\"RecentsManager\">\n    <key name=\"MoveFile.RECENT_KEYS\">\n      <recent name=\"$PROJECT_DIR$/src\" />\n    </key>\n    <key name=\"CreateTestDialog.Recents.Supers\">\n      <recent name=\"\" />\n    </key>\n    <key name=\"CreateTestDialog.RecentsKey\">\n      <recent name=\"\" />\n    </key>\n  </component>\n  <component name=\"SharedIndexes\">\n    <attachedChunks>\n      <set>\n        <option value=\"bundled-jdk-30f59d01ecdd-2fc7cc6b9a17-intellij.indexing.shared.core-IU-253.31033.145\" />\n      </set>\n    </attachedChunks>\n  </component>\n  <component name=\"SpellCheckerSettings\" RuntimeDictionaries=\"0\" Folders=\"0\" CustomDictionaries=\"0\" DefaultDictionary=\"application-level\" UseSingleDictionary=\"true\" transferred=\"true\" />\n  <component name=\"TaskManager\">\n    <task active=\"true\" id=\"Default\" summary=\"Default task\">\n      <changelist id=\"fe28e44d-3afb-47c5-9791-b5325ffda597\" name=\"Changes\" comment=\"\" />\n      <created>1701452657355</created>\n      <option name=\"number\" value=\"Default\" />\n      <option name=\"presentableId\" value=\"Default\" />\n      <updated>1701452657355</updated>\n    </task>\n    <task id=\"LOCAL-00001\" summary=\"started the project.\">\n      <option name=\"closed\" value=\"true\" />\n      <created>1776805623753</created>\n      <option name=\"number\" value=\"00001\" />\n      <option name=\"presentableId\" value=\"LOCAL-00001\" />\n      <option name=\"project\" value=\"LOCAL\" />\n      <updated>1776805623753</updated>\n    </task>\n    <task id=\"LOCAL-00002\" summary=\"worked on several methods.\">\n      <option name=\"closed\" value=\"true\" />\n      <created>1776978378090</created>\n      <option name=\"number\" value=\"00002\" />\n      <option name=\"presentableId\" value=\"LOCAL-00002\" />\n      <option name=\"project\" value=\"LOCAL\" />\n      <updated>1776978378090</updated>\n    </task>\n    <option name=\"localTasksCounter\" value=\"3\" />\n    <servers />\n  </component>\n  <component name=\"VcsManagerConfiguration\">\n    <MESSAGE value=\"started the project.\" />\n    <MESSAGE value=\"worked on several methods.\" />\n    <option name=\"LAST_COMMIT_MESSAGE\" value=\"worked on several methods.\" />\n  </component>\n  <component name=\"XDebuggerManager\">\n    <breakpoint-manager>\n      <breakpoints>\n        <line-breakpoint enabled=\"true\" type=\"java-line\">\n          <url>file://$PROJECT_DIR$/src/PriorityQueueTest.java</url>\n          <line>101</line>\n          <option name=\"timeStamp\" value=\"1\" />\n        </line-breakpoint>\n      </breakpoints>\n    </breakpoint-manager>\n  </component>\n  <component name=\"com.intellij.coverage.CoverageDataManagerImpl\">\n    <SUITE FILE_PATH=\"coverage/priority_queue_Ninjanarwhal41$PriorityQueueTest.ic\" NAME=\"PriorityQueueTest Coverage Results\" MODIFIED=\"1777320798170\" SOURCE_PROVIDER=\"com.intellij.coverage.DefaultCoverageFileProvider\" RUNNER=\"idea\" COVERAGE_BY_TEST_ENABLED=\"false\" COVERAGE_TRACING_ENABLED=\"true\" />\n  </component>\n</project>
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/workspace.xml b/.idea/workspace.xml
+--- a/.idea/workspace.xml	(revision 5a80a7285a45ab84a42f87ec5c3e9d79c7a264f2)
++++ b/.idea/workspace.xml	(date 1777490246520)
+@@ -4,11 +4,8 @@
+     <option name="autoReloadType" value="SELECTIVE" />
+   </component>
+   <component name="ChangeListManager">
+-    <list default="true" id="fe28e44d-3afb-47c5-9791-b5325ffda597" name="Changes" comment="worked on several methods.">
+-      <change afterPath="$PROJECT_DIR$/src/PriorityQueueTest.java" afterDir="false" />
++    <list default="true" id="fe28e44d-3afb-47c5-9791-b5325ffda597" name="Changes" comment="finished add method. currently need to finish remove, heapify, and deheapify methods. created tests for public methods.">
+       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/PriorityQueue.iml" beforeDir="false" afterPath="$PROJECT_DIR$/PriorityQueue.iml" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/src/PriorityQueue.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/PriorityQueue.java" afterDir="false" />
+     </list>
+     <option name="SHOW_DIALOG" value="false" />
+     <option name="HIGHLIGHT_CONFLICTS" value="true" />
+@@ -45,27 +42,27 @@
+     <option name="hideEmptyMiddlePackages" value="true" />
+     <option name="showLibraryContents" value="true" />
+   </component>
+-  <component name="PropertiesComponent"><![CDATA[{
+-  "keyToString": {
+-    "Application.PriorityQueue.executor": "Run",
+-    "Downloaded.Files.Path.Enabled": "false",
+-    "JUnit.PriorityQueueTest.executor": "Run",
+-    "JUnit.PriorityQueueTest.remove.executor": "Debug",
+-    "Repository.Attach.Annotations": "false",
+-    "Repository.Attach.JavaDocs": "false",
+-    "Repository.Attach.Sources": "false",
+-    "RunOnceActivity.ShowReadmeOnStart": "true",
+-    "RunOnceActivity.git.unshallow": "true",
+-    "com.intellij.ml.llm.matterhorn.ej.ui.settings.DefaultModelSelectionForGA.v1": "true",
+-    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit5",
+-    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": "",
+-    "create.test.in.the.same.root": "true",
+-    "git-widget-placeholder": "master",
+-    "junie.onboarding.icon.badge.shown": "true",
+-    "kotlin-language-version-configured": "true",
+-    "to.speed.mode.migration.done": "true"
++  <component name="PropertiesComponent">{
++  &quot;keyToString&quot;: {
++    &quot;Application.PriorityQueue.executor&quot;: &quot;Run&quot;,
++    &quot;Downloaded.Files.Path.Enabled&quot;: &quot;false&quot;,
++    &quot;JUnit.PriorityQueueTest.executor&quot;: &quot;Run&quot;,
++    &quot;JUnit.PriorityQueueTest.remove.executor&quot;: &quot;Debug&quot;,
++    &quot;Repository.Attach.Annotations&quot;: &quot;false&quot;,
++    &quot;Repository.Attach.JavaDocs&quot;: &quot;false&quot;,
++    &quot;Repository.Attach.Sources&quot;: &quot;false&quot;,
++    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
++    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
++    &quot;com.intellij.ml.llm.matterhorn.ej.ui.settings.DefaultModelSelectionForGA.v1&quot;: &quot;true&quot;,
++    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary&quot;: &quot;JUnit5&quot;,
++    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5&quot;: &quot;&quot;,
++    &quot;create.test.in.the.same.root&quot;: &quot;true&quot;,
++    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
++    &quot;junie.onboarding.icon.badge.shown&quot;: &quot;true&quot;,
++    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
++    &quot;to.speed.mode.migration.done&quot;: &quot;true&quot;
+   }
+-}]]></component>
++}</component>
+   <component name="RecentsManager">
+     <key name="MoveFile.RECENT_KEYS">
+       <recent name="$PROJECT_DIR$/src" />
+@@ -109,13 +106,22 @@
+       <option name="project" value="LOCAL" />
+       <updated>1776978378090</updated>
+     </task>
+-    <option name="localTasksCounter" value="3" />
++    <task id="LOCAL-00003" summary="finished add method. currently need to finish remove, heapify, and deheapify methods. created tests for public methods.">
++      <option name="closed" value="true" />
++      <created>1777323712061</created>
++      <option name="number" value="00003" />
++      <option name="presentableId" value="LOCAL-00003" />
++      <option name="project" value="LOCAL" />
++      <updated>1777323712061</updated>
++    </task>
++    <option name="localTasksCounter" value="4" />
+     <servers />
+   </component>
+   <component name="VcsManagerConfiguration">
+     <MESSAGE value="started the project." />
+     <MESSAGE value="worked on several methods." />
+-    <option name="LAST_COMMIT_MESSAGE" value="worked on several methods." />
++    <MESSAGE value="finished add method. currently need to finish remove, heapify, and deheapify methods. created tests for public methods." />
++    <option name="LAST_COMMIT_MESSAGE" value="finished add method. currently need to finish remove, heapify, and deheapify methods. created tests for public methods." />
+   </component>
+   <component name="XDebuggerManager">
+     <breakpoint-manager>
